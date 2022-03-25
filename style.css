@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Secret Admirer";
+    src: url("D:/Semester 4/Pemrograman Berbasis Web/layout/font/Secret Admirer.ttf") ;
+}
+@font-face{
+    font-family: "HappyFood";
+    src: url("D:/Semester 4/Pemrograman Berbasis Web/layout/font/Happy Food.ttf");
+}
+@font-face{
+    font-family: "BellFood";
+    src: url("D:/Semester 4/Pemrograman Berbasis Web/layout/font/Bellfoods.otf");
+}
+@font-face{
+    font-family: "Baksosapi";
+    src: url("D:/Semester 4/Pemrograman Berbasis Web/layout/font/BaksoSapi.otf");
+}
+.title {
+    padding : 10px;
+    margin: 0px;
+    text-align: center;
+    text-shadow: 2px 2px 5px steelblue;
+    color: black;
+}
+
+
+.square{
+    border: 5px solid #bdc3c7;
+    width: 200px;
+    padding: 2em;
+    margin: 3em auto;
+    transition: all 1s;
+  }
+  
+.square:hover {
+    border-color: cyan;
+    box-shadow: 0 5px 7px #000;
+    margin-top: 2em;
+  }
+
+   
